@@ -12,3 +12,6 @@ body {
 a, a:link, a:visited {
   color: DeepSkyBlue !important;
 }
+a:visited {
+  color: LightBlue !important;
+}
