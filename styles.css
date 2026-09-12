@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'GamesaTestFont';
+  src: url('https://github.com/MimrpimStudios/MimrpimStudios.github.io/raw/refs/heads/alpha/Assets/GamesaTestFont.ttf') format('truetype');
+  font-display: swap;
+}
 body {
   background-color: black;
   color: white;
+  font-family: 'GamesaTestFont', sans-serif;
 }
