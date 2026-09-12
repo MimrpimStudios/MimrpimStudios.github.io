@@ -18,7 +18,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #f2f2f2 !important;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,18 +27,18 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black !important;
+  color: black;
 }
 
 .topnav a.active {
   background-color: #04AA6D;
-  color: white !important;
+  color: white;
 }
 
 a, a:link{
-  color: DeepSkyBlue !important;
+  color: DeepSkyBlue;
 }
 a:visited {
-  color: DodgerBlue !important;
+  color: DodgerBlue;
 }
 
