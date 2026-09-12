@@ -11,13 +11,6 @@ body {
   text-align: center;
 }
 
-a, a:link{
-  color: DeepSkyBlue !important;
-}
-a:visited {
-  color: DodgerBlue !important;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -41,3 +34,11 @@ a:visited {
   background-color: #04AA6D;
   color: white;
 }
+
+a, a:link{
+  color: DeepSkyBlue !important;
+}
+a:visited {
+  color: DodgerBlue !important;
+}
+
