@@ -3,12 +3,21 @@
   src: url('https://github.com/MimrpimStudios/MimrpimStudios.github.io/raw/refs/heads/alpha/Assets/GamesaTestFont.ttf') format('truetype');
   font-display: swap;
 }
+
 body {
   margin: 0;
   background-color: black;
   color: white;
   font-family: 'GamesaTestFont', sans-serif;
   text-align: center;
+}
+
+a, a:link {
+  color: DeepSkyBlue;
+}
+
+a:visited {
+  color: DodgerBlue;
 }
 
 .topnav {
@@ -34,11 +43,3 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-
-a, a:link{
-  color: DeepSkyBlue;
-}
-a:visited {
-  color: DodgerBlue;
-}
-
