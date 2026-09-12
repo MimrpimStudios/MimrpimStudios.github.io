@@ -9,9 +9,9 @@ body {
   font-family: 'GamesaTestFont', sans-serif;
 }
 
-a, a:link, a:visited {
+a, a:link{
   color: DeepSkyBlue !important;
 }
 a:visited {
-  color: LightBlue !important;
+  color: DodgerBlue !important;
 }
