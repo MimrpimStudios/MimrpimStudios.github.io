@@ -40,6 +40,6 @@ a:visited {
 }
 
 .topnav a.active {
-  background-color: deeppink;
+  background-color: hotpink;
   color: black;
 }
