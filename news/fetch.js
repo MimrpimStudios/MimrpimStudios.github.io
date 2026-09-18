@@ -22,16 +22,16 @@ function addnews(newsItems) {
     return;
   }
 
-  // Podle tvého systému: id 1 = nejnovější, pak 2, 3, ...
-  const sortedNews = [...newsItems].sort((a, b) => Number(a.id) - Number(b.id));
+  // Řazení od největšího ID po nejmenší (od nejnovější po nejstarší)
+  const sortedNews = [...newsItems].sort((a, b) => Number(b.id) - Number(a.id));
 
   newsContainer.innerHTML = sortedNews.map(item => `
-    <article class="news-item">
+    <div class="newsbox">
       <p class="news-date">Date: ${item.date}</p>
       <p class="news-id">id: ${item.id}</p>
       <h2>${item.title}</h2>
       <p>${item.content}</p>
-    </article>
+    </div>
   `).join("");
 }
 
