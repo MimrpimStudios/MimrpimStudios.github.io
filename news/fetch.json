@@ -1,6 +1,14 @@
-        {
-            "id": 1,
-            "title": "The new launcher is in testing!",
-            "content": "We are currently testing the new launcher. It is not yet available for public use, but we are working hard to make it available soon. Stay tuned for updates!",
-            "date": "17. 9. 2026"
-        }
+[
+    {
+        "id": 1,
+        "title": "The new launcher is in testing!",
+        "content": "We are currently testing the new launcher. It is not yet available for public use, but we are working hard to make it available soon. Stay tuned for updates!",
+        "date": "17. 9. 2026"
+    },
+    {
+        "id": 2,
+        "title": "The news is now working!",
+        "content": "We have made working the news on our launcher, the way we wanted! Enyoy the news and stay tuned for more updates!",
+        "date": "18. 9. 2026"
+    }
+]
