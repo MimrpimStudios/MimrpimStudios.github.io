@@ -13,7 +13,8 @@ body {
   font-size: 32px;
 }
 
-a, a:link {
+a,
+a:link {
   color: DeepSkyBlue;
 }
 
